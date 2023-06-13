@@ -11,6 +11,8 @@
     An integer indicating the total amount of rainwater
     retained between the walls.
 """
+
+
 def rain(walls):
     """calculate how much water will be retained after it rains"""
     if not walls or len(walls) < 3:
